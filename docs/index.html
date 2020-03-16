@@ -148,7 +148,18 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#この本の目標" id="この本の目標">この本の目標</a></h1>
+                        <h1><a class="header" href="#目標" id="目標">目標</a></h1>
+<p>ここでは1つのPCを作ることを目標とする．</p>
+<p>そのため，</p>
+<ul>
+<li>CPUの作成，FPGAに焼き付ける</li>
+<li>上記のISAで動くOSの作成</li>
+<li>コンパイラの作成</li>
+<li>上記のコンパイラで実行できるシェルを作る</li>
+<li>統合</li>
+</ul>
+<p>を行う．</p>
+<p>気長にやるつもり</p>
 
                     </main>
 
@@ -171,21 +182,6 @@
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         
