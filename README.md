@@ -1,5 +1,7 @@
 # PCBook
 
+![github pages](https://github.com/diohabara/pcbook/workflows/github%20pages/badge.svg)
+
 ## commands
 
 - build
