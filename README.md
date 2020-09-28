@@ -1,2 +1,8 @@
-# how2makePC
+# PCBook
 
+## commands
+
+- build
+  - `npm run build`
+- serve
+  - `npm run serve`
